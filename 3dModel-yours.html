@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+<script src="https://aframe.io/releases/1.1.0/aframe.min.js"></script>
+<script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
+<script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@2.1.1/dist/aframe-extras.min.js"></script>
+
+  </head>
+    <body>
+    <a-scene>
+      <a-sky color="lightblue"></a-sky>
+      
+      <a-entity ply-model="src: Finished.ply" position="-14.91714 -10 15.177" rotation="-90 0 0" scale="3.11764 3.11764 3.11764"></a-entity>
+      <a-entity ply-model="src: Spurtfinished.ply" position="16.5076 -7.22193 5.97605" rotation="270 90 0" scale="3.46887 3.37915 3.37915" animation="
+      property: position;
+      from: 16.5076 -8.22193 5.97605;
+      to: 16.5076 -6.22193 5.97605;
+      loop: true;
+      dir: alternate;
+      dur:500;
+      "></a-entity>
+    </a-scene>
+  </body>
+</html>
